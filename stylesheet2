@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Bebas Neue", cursive; 
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color:#333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+body .logotitle {
+	font-family: 'Open Sans';
+	font-size: 40px;
+}
+
+.navigation
+{
+	position:relative;
+	top: 0px;
+	background-color:#000;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+}
+
+.navigation a {
+	float: left;
+	color: white;
+	text-align:left;
+	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: Bebas Neue;
+	font-size: 25px;
+}
+
+.navigation a:hover {
+	background-color: #00ff0;
+	color: green;
+}
+
+.navigation a.ResponsiveBar {
+	background-color: #00ff0;
+	color: green;
