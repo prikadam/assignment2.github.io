@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Bloom Flower Shop</title>
@@ -7,13 +7,13 @@
 	    {
   		box-sizing: border-box;
 		}
-		.column {
+		.photo {
   			float: left;
- 			width: 33%;
+ 			width: 31%;
   			padding: 5px;
   		}
 
-  		.row::after {
+  		.threephotos::after {
   			content: "";
   			clear: both;
   			display: table;
@@ -29,62 +29,45 @@
 			border-top-color: white;
 			order-top-width: 25pt
 		}
-		.header {
-		padding: 60px;
-  		text-align: center;
-  		background: #D7246B;
-  		color: white;
-  		font-size: 30px;
+      	img {
+    	float: left;
+    	width:  100px;
+    	height: 100px;
+    	object-fit: cover;
 		}
-      
-      		.header img {
-  	   	float: left;
- 	   	width: 100px;
-       		height: 100px;
-       		background: #555;
-       		}
-
-      .header h1 {
-       position: relative;
-       top: 18px;
-       left: 10px;
-}
 	</style>
 </head>
 <body>
-	
-	<div class = "navigation">
+	<header>
+		<div class = "navigation">
 			<a class="Responsive Bar" href="index.html">
 			<a href="index.html"> Home </a> 
-			<a href="about.html"> About </a> 
+			<a href="services.html"> Services </a> 
 			<a href="contact.html"> Contacts </a>
-	</div> 
-      <div class="header">
-  <img src="https://images-platform.99static.com//9dUAzGpqELbRhHxtCrVvQJ2OGR4=/204x0:1521x1317/fit-in/500x500/99designs-contests-attachments/116/116672/attachment_116672740"  width="150" height="150" border="0"/>
-  <h1>Bloom Flower Shop</h1>
-</div>
-
+		</div> 
+	</header>
+	<div class = "logotitle">
+		<h1 style = "color: white"> 
+		<img style = "vertical-align: middle" src="https://images-platform.99static.com//9dUAzGpqELbRhHxtCrVvQJ2OGR4=/204x0:1521x1317/fit-in/500x500/99designs-contests-attachments/116/116672/attachment_116672740" border="0"></a>Bloom Flower Shop </h1>
+	</div>
 	<hr>
-	<div class="row">
-  		<div class="column">
-   			<img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1643067267/vendor/1126/catalog/product/2/0/20160122091432_file_56a29bb812815_11_3_3_22_1.png" style="width:50%">
+	<div class="threephotos">
+  		<div class="photo">
+   			<img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1643067267/vendor/1126/catalog/product/2/0/20160122091432_file_56a29bb812815_11_3_3_22_1.png" style="width:100%">
   		</div>
-  		<div class="pic">
-    		<img src="https://static.onecms.io/wp-content/uploads/sites/37/2020/04/10/premixed-bouquet-flower-0e49a64c.jpg" style="width:50%">
+  		<div class="photo">
+    		<img src="https://m.media-amazon.com/images/I/81Gx48J+h5L._SL1500_.jpg" style="width:100%">
   		</div>
-  		<div class="pic">
-  	  		<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vertical-jpl-klp-002-1564000921.jpg" style="width:50%">
+  		<div class="photo">
+  	  		<img src="https://fyf.tac-cdn.net/images/products/large/TEV55-6.jpg" style="width:100%">
  		</div>
 	</div>
 
 	<footer class = "blackfooter">
 		<div>
-			<h5> This website was created for the purposes of CS-20, a computer science course at Tufts University. This website has no affiliation with the business or practices of Bloom Flower Shop.  </h5>
+			<h5> This website was created for the purposes of CS-20, a computer science course at Tufts University. This website has no affiliation with the business or practices of Bloom Flower Shop. </h5>
 		</div>
 	</footer>
-}
 
 </body>
-</html>
-</head>
 </html>
